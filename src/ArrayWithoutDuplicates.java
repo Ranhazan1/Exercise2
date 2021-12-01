@@ -1,8 +1,8 @@
 public class ArrayWithoutDuplicates {
 
     public static void main(String[] args) {
-        int array[]={1,3,5,3,7,7,8,7,9,9,1,5,2};
-        int newArray[]=removeDuplicates(array);
+        int[] arrayNum1={1,3,5,3,7,7,8,7,9,9,1,5,2};
+        int[] newArray =removeDuplicates(arrayNum1);
         for (int i=0;i<newArray.length;i++){
             System.out.print(newArray[i]);
         }
